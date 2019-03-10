@@ -50,14 +50,20 @@ $(document).ready(function () {
     // console.log( password_generator() );
 
     $('#normal').click(function(){
+        var txt = document.createElement("p")
+        txt.setAttribute("id", "normal-txt")
+        $('#input1').append(txt)
         // password_generator();
         // console.log(password_generator());
-        $('#normal-txt').append(password_generator());   
+        txt.append(password_generator());   
     });
 
     $('#complex').click(function(){
-        // password_generator_complex();
+        var txt = document.createElement("p")
+        txt.setAttribute("id", "complex-txt")
+        $('#input2').append(txt)
+        // password_generator();
         // console.log(password_generator());
-        $('#complex-txt').append(password_generator_complex());
+        txt.append(password_generator_complex());
     });
 });
