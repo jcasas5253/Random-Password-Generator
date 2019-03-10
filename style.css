@@ -57,4 +57,9 @@ body {
      border-radius: 15px;
  }
 
+ @media screen and (max-width: 640px) {
+     .footer {
+         height: 0px;
+     }
+}
 
