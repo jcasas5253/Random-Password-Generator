@@ -1,0 +1,60 @@
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url("https://www.acci.com/wp-content/uploads/2018/04/cyber-security-background-conception-motion-graphic_rtzdhvb4__F0000.png");
+}
+
+.blue {
+    color: #007bff;
+}
+
+.red {
+    color: #dc3545;
+}
+
+h1,
+p {
+    color: #ffffff;
+}
+
+#normal-txt,
+#complex-txt {
+    color: #ffffff;
+}
+
+body {
+    background-color: #d4cccc!important;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-image: url("https://www.acci.com/wp-content/uploads/2018/04/cyber-security-background-conception-motion-graphic_rtzdhvb4__F0000.png");
+ }
+
+ .col-6 {
+     padding: 10px;
+     text-align: center;
+ }
+
+ #normal-txt {
+     background-color: #007bff;
+     border-radius: 15px;
+     text-align: center;
+     margin: 0, 0, 0, 0;
+ }
+
+ #complex-txt {
+     background-color: #dc3545;
+     border-radius: 15px;
+ }
+
+
